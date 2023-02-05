@@ -13,7 +13,7 @@ body{
     padding: 0;
 }
 header{
-    background-color:  #58676a;
+    background-color:  #F16736;
 }
 nav a{
     text-align: center;
@@ -93,7 +93,7 @@ footer p a:hover{
     text-decoration: underline;
 }
 footer a:hover{
-    color: #30383a;
+    color: #F16736a;
     text-decoration: underline;
     background-color:  #f1f6f8;
 }
