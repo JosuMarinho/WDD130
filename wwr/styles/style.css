@@ -14,7 +14,14 @@ body{
 }
 header{
     background-color:  #F16736;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+  
 nav a{
     text-align: center;
     color: #ecf3f6;
@@ -112,6 +119,9 @@ h2 {
 }
 #logo_link{
     padding-top: 5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 footer .social img{
     padding-top: 15px;
