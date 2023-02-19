@@ -130,7 +130,7 @@ footer a:hover{
     z-index: -1;
 }
 #hero-msg h4 {
-    color: white;
+    color: black;
 }
 #hero-msg {
     grid-column: 2/3;
