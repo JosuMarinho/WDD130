@@ -15,8 +15,7 @@ body{
 header{
     background-color:  #F16736;
     display: grid;
-    grid-template-columns: 150px auto;
-    
+    grid-template-columns: 150px auto;    
 }
 nav {
     display: flex;
@@ -53,7 +52,7 @@ main section{
 .home-title{
     color: #063d54;
     font-family: 'Montserrat';
-    font-size: 2em;
+    font-size: 3em;
 }
 h4{
     color: #063d54;
