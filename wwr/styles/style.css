@@ -16,12 +16,12 @@ header{
     background-color:  #F16736;
     display: grid;
     grid-template-columns: 150px auto;
+    
 }
 nav {
     display: flex;
     justify-content: space-around;
-}
-  
+} 
 nav a{
     text-align: center;
     color: #ecf3f6;
@@ -74,6 +74,9 @@ h4{
     background-color:  #126a80;
     line-height: 1.5em;
     padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .msg h2{
     color: #ffffff;
@@ -88,6 +91,9 @@ footer{
     background-color: #30383a;
     padding: 25px 50px;
     margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 footer a{
     color: #ffffff;
@@ -115,6 +121,7 @@ footer a:hover{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
 }
 #hero-box {
     grid-column: 1/4;
