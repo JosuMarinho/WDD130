@@ -1,0 +1,131 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+        url('https://fonts.google.com/specimen/Montserrat?preview.text=%0A&preview.layout=row&preview.text_type=custom&query=mon');
+
+/* Estilos generales */
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 26px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #52adc8;
+  color: #fff;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  display: inline-block;
+}
+
+header img {
+  height: 50px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: #666;
+}
+
+/* Imagen destacada */
+.featured-image {
+  text-align: center;
+}
+
+.featured-image img {
+  max-width: 100%;
+}
+
+/* Iconos de URL */
+.icon-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.icon-list li:last-child {
+  margin-right: 0;
+}
+
+.icon-list a {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.icon-list a:hover {
+  color: #666;
+  background-color: #f5f5f5;
+}
+
+/* Secciones */
+section {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+}
+
+section h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+section p {
+  margin: 0;
+}
+
+section ul {
+  margin: 0;
+  padding: 0;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #52adc8;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
