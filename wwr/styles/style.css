@@ -322,9 +322,9 @@ button {
     margin-top: 40px;
     color: #b1adad;
     grid-column: 1/1;
-    grid-row: 1/2;
+    grid-row: 1/1;
 }
 .home-grid-pg2 p{
     color: #b1adad;
     grid-column: 2/3;
-    grid-row: 1/3;
+    grid-row: 2/3;
