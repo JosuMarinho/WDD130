@@ -321,10 +321,10 @@ button {
     margin: auto;
     margin-top: 40px;
     color: #b1adad;
-    grid-column: 1/3;
-    grid-row: 1/3;
+    grid-column: 1/1;
+    grid-row: 1/2;
 }
 .home-grid-pg2 p{
     color: #b1adad;
-    grid-column: 2/3,3/3;
+    grid-column: 2/3;
     grid-row: 1/3;
