@@ -296,7 +296,17 @@ button {
      between the labels and their text fields */
   margin-left: 0.5em;
 }
-
+<div style="display: flex;">
+  <div style="width: 33.33%; background-color: #0074D9;">
+    <h2 style="color: #FFFFFF;">This is the place to answer frequently asked client questions</h2>
+  </div>
+  <div style="width: 33.33%;">
+    <h2 style="color: #333333;">Segundo Tercio</h2>
+  </div>
+  <div style="width: 33.33%;">
+    <h2 style="color: #333333;">Tercer Tercio</h2>
+  </div>
+</div>
 }
     footer {
         margin-top: 25px;
