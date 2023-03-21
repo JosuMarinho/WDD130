@@ -308,7 +308,7 @@ button {
 .home-grid-pg2{
     margin: auto;
     display: grid;
-    grid-template-columns:1fr,2fr;
+    grid-template-columns:1fr 2fr;
 }
 .home-grid-pg2 img{
     margin: auto;
