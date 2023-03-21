@@ -309,7 +309,7 @@ button {
     grid-template-columns:repeat(10, 1fr);
 }    
 
-#background-2 {
+#background-2{
     height: 725px;
     background-color:  #0faad1;
     grid-column: 1/2;
