@@ -303,9 +303,7 @@ button {
 }
 /*Page 2 section*/
 
-.river-icon p{
-    font-size: 1.5em;
-    font-family: sans-serif, "Oswald", Helvetica;
+
 }
 .home-grid-pg2{
     margin: auto;
@@ -330,10 +328,3 @@ button {
     color: #b1adad;
     grid-column: 6/10;
     grid-row: 3/5;
-}
-#botton-book-now{
-    grid-column: 6/10;
-    grid-row: 6/6;
-}
-#botton-book-now a{
-    font-size: 1.5em;
