@@ -1,9 +1,9 @@
 @import url('https://fonts.google.com/specimen/Roboto');
-        url('https://fonts.google.com/specimen/Montserrat?preview.text=%0A&preview.layout=row&preview.text_type=custom&query=mon');
+@import url('https://fonts.google.com/specimen/Montserrat?preview.text=%0A&preview.layout=row&preview.text_type=custom&query=mont');
 
 /* Estilos generales */
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', 'Montserrat', sans-serif;
   font-size: 26px;
   line-height: 1.5;
   color: #333;
@@ -86,7 +86,7 @@ nav a:hover {
   display: inline-block;
   color: #333;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.25em; /* responsive font size */
   padding: 5px;
 }
 
@@ -128,13 +128,14 @@ footer {
   padding: 10px;
   margin-top: 20px;
 }
-    .project {
-        display: flex;
-        justify-content: center;
-      }
-      
-    .project img {
-        width: 700px;
-        height: 500px;
-        margin: 30px;
-      }
+
+.project {
+  display: flex;
+  justify-content: center;
+}
+
+.project img {
+  max-width: 100%; /* use max-width instead of fixed width */
+  height: auto; /* maintain aspect ratio */
+  margin: 30px;
+}
