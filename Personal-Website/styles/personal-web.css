@@ -177,3 +177,8 @@ footer {
     float: left;
     width: 65%;
   }
+  .resumeimage1 {
+    float: right;
+    width: auto;
+    max-width: 66%;
+  }
