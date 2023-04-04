@@ -106,7 +106,6 @@ section {
 }
 
 #presentation {
-   
   padding: 20px;
   margin: 20px 0;
   background-color: #7c969f;
@@ -116,10 +115,12 @@ section {
 section h2 {
   margin-top: 0;
   font-size: 24px;
+  text-align: justify;
 }
 
 section p {
   margin: 0;
+  text-align: justify;
 }
 
 section ul {
