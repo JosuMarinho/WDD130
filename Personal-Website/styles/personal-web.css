@@ -105,6 +105,14 @@ section {
   background-color: #fff;
 }
 
+#presentation {
+   
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #7c969f;
+  color:#fff;
+}
+
 section h2 {
   margin-top: 0;
   font-size: 24px;
