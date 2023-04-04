@@ -125,7 +125,14 @@ section p {
 
 section ul {
   margin: 0;
-  padding: 20;
+  padding: 20;display: flex;
+  flex-wrap: wrap;
+}
+
+section div {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 
 section li {
