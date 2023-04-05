@@ -218,3 +218,23 @@ footer {
     width: auto;
     max-width: 66%;
   }
+ .project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: auto; 
+    margin: 50px 0;
+  }
+  
+  .project img {
+    float:left;
+    max-width: 47%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .project p {
+    float: right;
+    max-width: 47%;
+    font-size: 18px;
+  }
