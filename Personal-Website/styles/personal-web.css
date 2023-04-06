@@ -120,7 +120,7 @@ section {
   background-color: #fff;
 }
 #presentation {
-   
+  font-size: auto; 
   padding: 20px;
   margin: 20px 0;
   background-color: #7c969f;
