@@ -145,7 +145,11 @@ section ul {
   padding: 20; 
 
 }
-
+article p {
+  padding: 20px;
+  margin:  0;
+  text-align: justify;
+}
 
 section li {
   margin-bottom: 10px;
