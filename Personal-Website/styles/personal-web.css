@@ -151,6 +151,16 @@ article p {
   text-align: justify;
 }
 
+article img {
+  padding: 20px;
+  margin:  0;  
+  max-width: 100%;
+  height:auto; 
+  display: inline-block;
+  
+}
+
+
 section li {
   margin-bottom: 10px;
   text-indent: 1%;
