@@ -2,10 +2,10 @@
 @import url('https://fonts.cdnfonts.com/css/roboto');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;700&display=swap');
 @import url('https://fonts.google.com/specimen/Montserrat?preview.text=%0A&preview.layout=row&preview.text_type=custom&query=mont');
-
+@import url('https://fonts.cdnfonts.com/css/raleway-5'); 
 /* Estilos generales */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.5;
   color: #333;
@@ -121,7 +121,7 @@ section {
   background-color: #fff;
 }
 #presentation {
-   
+  font-family: 'Roboto Light', sans-serif; 
   padding: 20px;
   margin: 20px 0;
   background-color: #7c969f;
