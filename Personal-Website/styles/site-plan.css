@@ -94,6 +94,7 @@ p {
   background-color: var(--accent2-color);
 }
 p.colored {
+  font-family: var(--heading-font); 
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
